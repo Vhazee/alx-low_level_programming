@@ -10,7 +10,7 @@ void print_alphabet_x10(void)
 
 	/*while loop to loop through count 1-10*/
 	/*for loop to loop throught the alphabets*/
-	while (count++)
+	while (count++ <= 10)
 	{
 		for (i = 'a'; i <= 'z'; i++)
 			_putchar(i);
